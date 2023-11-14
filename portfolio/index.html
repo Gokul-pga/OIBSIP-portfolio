@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- UNICONS ---------- -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Gokulanand</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn">Portfolio</button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-name">
+              <p>Gokulanand P</p>
+              <h6>B.E - Mechatronics Engineering</h6>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Front-end Developer | Fresher Graduate with a Passion for
+                Creating Dynamic Web Experiences
+              </p>
+            </div>
+
+            <div class="social_icons">
+              <div class="icon"><i class="uil uil-instagram"></i></div>
+              <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+              <div class="icon"><i class="uil uil-dribbble"></i></div>
+              <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+          </div>
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row-content">
+            <div class="col">
+              <div class="about-info">
+                <h3>My introduction</h3>
+                <p>
+                  I am well-versed in HTML, CSS and JavaScript , and other
+                  cutting edge frameworks and libraries like Tailwind css, React
+                  Js and Next Js,which allows me to implement interactive
+                  features.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Frontend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Tailwind css</span>
+                  <span>JavaScript</span>
+                  <span>React Js</span>
+                  <span>Next Js</span>
+                  <span>Redux</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Backend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>MongoDB</span>
+                  <span>Node js</span>
+                  <span>Express js</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Version Control</h3>
+                </div>
+                <div class="skills-list">
+                  <span>Git</span>
+                  <span>GitHub</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="education">
+            <div class="education-heading">
+              <h1>Education:</h1>
+            </div>
+            <div class="education-col">
+              <div class="education-list">
+                <h4>SNS COLLEGE OF TECHNOLOGY, Coimbatore - B.E</h4>
+                <h5>2019 ~ 2023</h5>
+                <h5>CGPA ~ 8.6%</h5>
+              </div>
+              <div class="education-list">
+                <h4>Sri Ragavendra Matric Hr.Sec School, Sathyamangalam</h4>
+                <h5>2018 ~ 2019 | HSC ~ 54%</h5>
+                <h5>2016 ~ 2017 | SSLC ~ 87%</h5>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- PROJECT BOX ---------------- -->
+
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+              <i class="uil uil-briefcase-alt"></i>
+              <h3>Completed</h3>
+              <label>Upto 5 Projects</label>
+            </div>
+            <div class="project-box">
+              <i class="uil uil-users-alt"></i>
+              <h3>Clients</h3>
+              <label>25+ Happy Clients</label>
+            </div>
+            <div class="project-box">
+              <i class="uil uil-award"></i>
+              <h3>Experience</h3>
+              <label>Fresher</label>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- CONTACT BOX ---------------- -->
+
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1 class="contact-text">Get in touch</h1>
+            <span class="contact-text"
+              >Do you have a project in your mind, contact me here</span
+            >
+          </div>
+          <div class="row-user">
+            <div class="contact-user">
+              <input type="text" placeholder="Name" class="input-field" />
+              <input type="text" placeholder="Contact" class="input-field" />
+              <input type="text" placeholder="Message" class="input-field" />
+            </div>
+            <div class="form-button">
+              <button class="btn">Submit</button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <p>Gokulanand .</p>
+          <ul>
+            <li>Email :- Gokulanand2508@gmail.com</li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/gokulanand-p-8b7923228"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Gokul-pga" target="_blank">GitHub</a>
+            </li>
+          </ul>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon-fotter"><i class="uil uil-instagram"></i></div>
+          <div class="icon-fotter"><i class="uil uil-linkedin-alt"></i></div>
+          <div class="icon-fotter"><i class="uil uil-dribbble"></i></div>
+          <div class="icon-fotter"><i class="uil uil-github-alt"></i></div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
